@@ -4,8 +4,8 @@
 def spell():
     word=input("What do you want?")
     print(word[0]+".")
-    for i in range(len):
-        print(word(i) + ".")
+    for i in range(len(word)):
+        print(word[i] + ".")
         i = i+1
 
 spell()
